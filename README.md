@@ -9,6 +9,7 @@
 1. 包含如下功能：
    - com.example.demo.exception.GlobalExceptionHandler类：针对ServiceExcption和validation抛出的异常的全局处理
    - com.example.demo.config.Swagger2类：swagger配置文件
+   - com.example.demo.config.MyCorsFilter类：允许跨域访问配置
    - com.example.demo.constant.ServiceInfo类：后端服务名常量，用于供Feign指定服务
    - com.example.demo.util包：包含工具类和错误码接口，具体错误码的实现可以在各具体的后端微服务中去定义
    - com.example.demo.bean.Response类：用于封装返回给前端的数据，包括状态码和数据
